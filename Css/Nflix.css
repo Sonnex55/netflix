@@ -330,14 +330,42 @@
     font-weight: 400px;
     display: inline-block;
     margin-bottom: 15px;
+    white-space: nowrap;
     
+}
+
+#rat {
+    margin-top: 50px;
 }
 
 .it {
     margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(8, 2fr);
 }
+
+@media (max-width: 730px) {
+    .it {
+        display: table-row;
+    }
+
+}
+
+
 
 .lop {
     margin-top: 50px;
     
+}
+
+.brit {
+    color: #a8a8a8;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400px;
+    margin-top: 40px;
+}
+
+.language-selector {
+    width: 150px;
 }
